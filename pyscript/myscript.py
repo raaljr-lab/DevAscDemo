@@ -24,7 +24,7 @@ def main() -> int:
     """Main entry point for the script."""
     args = parse_args()
     print(f"Hello, {args.name}!")
-    print(f"Welcome to the DevAscDemo, {args.name}!")
+    print(f"Welcome to the DevAscDemo Training, {args.name}!")
     return 0
 
 
