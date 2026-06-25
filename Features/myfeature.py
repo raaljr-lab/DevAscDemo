@@ -10,6 +10,7 @@ def get_feature_info() -> str:
 
 def run_feature(name: str) -> str:
     """Run the feature logic and return a result string."""
+    print(f"Running feature for {name}...")
     return f"Feature executed for {name}."
 
 
